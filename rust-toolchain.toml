@@ -1,0 +1,6 @@
+# Tutero pins one Rust toolchain across all its repos; bump it alongside the
+# other pins listed by `just rust-pins` in the metarepo.
+[toolchain]
+channel = "nightly-2026-08-20"
+profile = "minimal"
+components = ["rustfmt", "clippy"]
